@@ -1,0 +1,39 @@
+import 'dart:io';
+
+void main(){
+
+    bool cadastrarOutroAluno = true;
+    while(cadastrarOutroAluno)
+    
+    print("informe seu nome");
+    String? nome = stdin.readLineSync();
+
+    if(nome == "jose"){
+        print("ola, $nome");
+    }else{
+        print("ola, $nome");
+    }
+}
+--------------------------------------------------
+
+import 'dart:io';
+
+void main(){
+
+    List<String?> aluno [];
+    bool cadastrarOutroAluno = true;
+
+    while(cadastrarOutroAluno){
+        print("Informe nome do aluno:");
+        String? nome = stdin.readLineSync();
+
+        alunos.add(nome);
+
+        print('Deseja cadastrar outro aluno?(s /n)');
+        var repostaUsuario = stdin.readLineSync();
+        cadastrarOutroAluno = repostaUsuario == "s";
+        
+    };
+
+}
+---------------------------------------------------------------------
